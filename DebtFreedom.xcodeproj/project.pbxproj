@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC11E5E824428DE400620479 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC11E5E724428DE400620479 /* player.cpp */; };
+		DC11E5EB24428DF900620479 /* engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC11E5E924428DF900620479 /* engine.cpp */; };
+		DC11E5EF24428E1A00620479 /* account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC11E5EE24428E1A00620479 /* account.cpp */; };
+		DC11E5F124428E3700620479 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC11E5F024428E3600620479 /* main.cpp */; };
+		DC11E5F724428E6E00620479 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = DC11E5F524428E6E00620479 /* Makefile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC11E5CF24428AF800620479 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC11E5D124428AF800620479 /* DebtFreedom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DebtFreedom; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC11E5E624428DE400620479 /* player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = player.hpp; sourceTree = "<group>"; };
+		DC11E5E724428DE400620479 /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		DC11E5E924428DF900620479 /* engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = engine.cpp; sourceTree = "<group>"; };
+		DC11E5EA24428DF900620479 /* engine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = engine.hpp; sourceTree = "<group>"; };
+		DC11E5EC24428E1A00620479 /* account.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = account.hpp; sourceTree = "<group>"; };
+		DC11E5ED24428E1A00620479 /* acct_unittests.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = acct_unittests.hpp; sourceTree = "<group>"; };
+		DC11E5EE24428E1A00620479 /* account.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = account.cpp; sourceTree = "<group>"; };
+		DC11E5F024428E3600620479 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DC11E5F224428E6E00620479 /* CMakeCache.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		DC11E5F324428E6E00620479 /* cmake_install.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		DC11E5F424428E6E00620479 /* DebtFreeGame */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = DebtFreeGame; sourceTree = "<group>"; };
+		DC11E5F524428E6E00620479 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DC11E5F624428E6E00620479 /* CMakeFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CMakeFiles; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC11E5CE24428AF800620479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC11E5C824428AF800620479 = {
+			isa = PBXGroup;
+			children = (
+				DC11E5D324428AF800620479 /* DebtFreedom */,
+				DC11E5D224428AF800620479 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC11E5D224428AF800620479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E5D124428AF800620479 /* DebtFreedom */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC11E5D324428AF800620479 /* DebtFreedom */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E5DC24428C6000620479 /* src */,
+				DC11E5DB24428BFD00620479 /* build */,
+			);
+			path = DebtFreedom;
+			sourceTree = "<group>";
+		};
+		DC11E5DB24428BFD00620479 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E5F324428E6E00620479 /* cmake_install.cmake */,
+				DC11E5F224428E6E00620479 /* CMakeCache.txt */,
+				DC11E5F624428E6E00620479 /* CMakeFiles */,
+				DC11E5F424428E6E00620479 /* DebtFreeGame */,
+				DC11E5F524428E6E00620479 /* Makefile */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		DC11E5DC24428C6000620479 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E5F024428E3600620479 /* main.cpp */,
+				DC11E5E524428DA700620479 /* player */,
+				DC11E5E424428DA000620479 /* engine */,
+				DC11E5E324428D7800620479 /* account */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		DC11E5E324428D7800620479 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E5EE24428E1A00620479 /* account.cpp */,
+				DC11E5EC24428E1A00620479 /* account.hpp */,
+				DC11E5ED24428E1A00620479 /* acct_unittests.hpp */,
+			);
+			path = account;
+			sourceTree = "<group>";
+		};
+		DC11E5E424428DA000620479 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E5E924428DF900620479 /* engine.cpp */,
+				DC11E5EA24428DF900620479 /* engine.hpp */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		DC11E5E524428DA700620479 /* player */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E5E724428DE400620479 /* player.cpp */,
+				DC11E5E624428DE400620479 /* player.hpp */,
+			);
+			path = player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC11E5D024428AF800620479 /* DebtFreedom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC11E5D824428AF800620479 /* Build configuration list for PBXNativeTarget "DebtFreedom" */;
+			buildPhases = (
+				DC11E5CD24428AF800620479 /* Sources */,
+				DC11E5CE24428AF800620479 /* Frameworks */,
+				DC11E5CF24428AF800620479 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DebtFreedom;
+			productName = DebtFreedom;
+			productReference = DC11E5D124428AF800620479 /* DebtFreedom */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC11E5C924428AF800620479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lando Shepherd";
+				TargetAttributes = {
+					DC11E5D024428AF800620479 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DC11E5CC24428AF800620479 /* Build configuration list for PBXProject "DebtFreedom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC11E5C824428AF800620479;
+			productRefGroup = DC11E5D224428AF800620479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC11E5D024428AF800620479 /* DebtFreedom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC11E5CD24428AF800620479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC11E5F724428E6E00620479 /* Makefile in Sources */,
+				DC11E5E824428DE400620479 /* player.cpp in Sources */,
+				DC11E5EF24428E1A00620479 /* account.cpp in Sources */,
+				DC11E5EB24428DF900620479 /* engine.cpp in Sources */,
+				DC11E5F124428E3700620479 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC11E5D624428AF800620479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC11E5D724428AF800620479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC11E5D924428AF800620479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC11E5DA24428AF800620479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC11E5CC24428AF800620479 /* Build configuration list for PBXProject "DebtFreedom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC11E5D624428AF800620479 /* Debug */,
+				DC11E5D724428AF800620479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC11E5D824428AF800620479 /* Build configuration list for PBXNativeTarget "DebtFreedom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC11E5D924428AF800620479 /* Debug */,
+				DC11E5DA24428AF800620479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC11E5C924428AF800620479 /* Project object */;
+}
